@@ -1,4 +1,5 @@
-# -------------------[ Persona Plymouth ]-----------------
+# ---------------------[ Persona Plymouth Bar]------------------
+# -------------------------[version 2.5]------------------------
 # ------------[ Created by M. Syarief Hidayatulloh ]------------
 # ------------------[ me.msyariefh@gmail.com ]------------------
 # --[ Not for Commercial use, except with my permission !!!! ]--
@@ -10,8 +11,8 @@ maximum_msg = 5;
 ubuntufont = "Ubuntu Light 18";
 perfont = "Ubuntu Light 20";
 progressfont = "Ubuntu 15";
-hi_text = "Hi, M. Syarief Hidayatulloh";
-bye_text = "Have a Nice Day, Goodbye";
+hi_text = "Hi, Shankar Raj.J";
+bye_text = "See you soon!";
 progress_t= 0;
 
 # ====================[ End of Constant ]==================== #
@@ -40,7 +41,7 @@ bg_sprite.SetPosition(Window.GetX() + Window.GetWidth() / 2 - scaled_bg_image.Ge
 
   if (Plymouth.GetMode () == "boot")
      { 
-        text.image = Image.Text (hi_text,255,255,255,1, ubuntufont);
+        text.image = Image.Text (hi_text,0,0,102,1, ubuntufont);
         text.sprite = Sprite(text.image);
         text.x = Window.GetX() + Window.GetWidth()  / 2 - text.image.GetWidth() / 2;
         text.y = Window.GetY() + Window.GetHeight() * 0.505  - text.image.GetHeight() / 2;
@@ -48,7 +49,7 @@ bg_sprite.SetPosition(Window.GetX() + Window.GetWidth() / 2 - scaled_bg_image.Ge
       }
   else 
      {
-        text_end.image = Image.Text(bye_text,255,255,255,1, ubuntufont);
+        text_end.image = Image.Text(bye_text,0,0,102, 1, ubuntufont);
         text_end.sprite = Sprite(text_end.image);
         text_end.x = Window.GetX() + Window.GetWidth()  / 2 - text_end.image.GetWidth() / 2;
         text_end.y = Window.GetY() + Window.GetHeight() * 0.505  - text_end.image.GetHeight() / 2;
