@@ -1,4 +1,5 @@
-# -------------------[ Persona Plymouth circle ]----------------
+# ------------------[ Persona Plymouth circle ]-----------------
+# -------------------------[version 2.5]------------------------
 # ------------[ Created by M. Syarief Hidayatulloh ]------------
 # ------------------[ me.msyariefh@gmail.com ]------------------
 # --[ Not for Commercial use, except with my permission !!!! ]--
@@ -7,7 +8,7 @@
 #====================[Thanks to]====================#
 # Allah SWT
 # https://codepen.io/feebaa/pen/PPrLQP (Fernando de Almeida Faria ) for cirle bootloader idea
-# All my friend in Real world an in social media
+# All my friend in Real world and in social media
 #===================================================#
 
 # ====================[ Constant here !!!!! ]==================== #
@@ -16,8 +17,8 @@ maximum_msg = 5;
 ubuntufont = "Ubuntu Light 18";
 perfont = "Ubuntu Light 20";
 progressfont = "Ubuntu 15";
-hi_text = "Hi, M. Syarief Hidayatulloh";
-bye_text = "Have a Nice Day, Goodbye";
+hi_text = "Hi, Shankar Raj.J";
+bye_text = "See you soon!";
 progress_t= 0;
 fun_curve_linear = 0;
 fun_curve_in = 1;
@@ -214,7 +215,7 @@ Plymouth.SetRefreshFunction(refresh);
 
 # ====================[ Text_center begin ]==================== #
 
-per.image = Image.Text ("Persona Ubuntu",255,255,255,1, perfont);
+per.image = Image.Text ("Lenovo",0,0,102,1, perfont);
         per.sprite = Sprite(per.image);
         per.x = Window.GetX() + Window.GetWidth()  / 2 - per.image.GetWidth() / 2;
         per.y = Window.GetY() + Window.GetHeight() * 0.45  - per.image.GetHeight() / 2;
@@ -222,7 +223,7 @@ per.image = Image.Text ("Persona Ubuntu",255,255,255,1, perfont);
 
   if (Plymouth.GetMode () == "boot")
      { 
-        text.image = Image.Text (hi_text,255,255,255,1, ubuntufont);
+        text.image = Image.Text (hi_text,0,0,102,1, ubuntufont);
         text.sprite = Sprite(text.image);
         text.x = Window.GetX() + Window.GetWidth()  / 2 - text.image.GetWidth() / 2;
         text.y = Window.GetY() + Window.GetHeight() * 0.77  - text.image.GetHeight() / 2;
@@ -230,7 +231,7 @@ per.image = Image.Text ("Persona Ubuntu",255,255,255,1, perfont);
       }
   else 
      {
-        text_end.image = Image.Text(bye_text,255,255,255,1, ubuntufont);
+        text_end.image = Image.Text(bye_text,0,0,102,1, ubuntufont);
         text_end.sprite = Sprite(text_end.image);
         text_end.x = Window.GetX() + Window.GetWidth()  / 2 - text_end.image.GetWidth() / 2;
         text_end.y = Window.GetY() + Window.GetHeight() * 0.77  - text_end.image.GetHeight() / 2;
