@@ -43,7 +43,7 @@ maximum_msg = 5;
 ubuntufont = "Ubuntu Light 18";
 perfont = "Ubuntu Light 20";
 progressfont = "Ubuntu 15";
-hi_text = "Hi, M. Syarief Hidayatulloh";
+hi_text = "Hi, Shankar Raj.J";
 progress_t= 0;
 
 ```
@@ -69,7 +69,10 @@ progress_t= 0;
 
 
 Any Questions?
-Plz contact me on
+contact ShankarRaj.J@GMail.com
+
+
+original developer Plz contact M. Syarief Hidayatulloh on
 * me.msyariefh@gmail.com
 * 085225915434 (Whatsapp)
 
