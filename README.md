@@ -1,5 +1,5 @@
 <div align="center">
-	<h1>Persona_Plymouth</h1>
+	<h1>Pop_os!_Persona_Plymouth</h1>
 	<p>A Simple and Elegant Plymouth that Reflects You</p>
 </div>
 
